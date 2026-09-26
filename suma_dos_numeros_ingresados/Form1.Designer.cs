@@ -35,6 +35,8 @@
             this.lblsimbolo = new System.Windows.Forms.Label();
             this.lbligual = new System.Windows.Forms.Label();
             this.txtresultado = new System.Windows.Forms.TextBox();
+            this.btnlimpiar = new System.Windows.Forms.Button();
+            this.btncerrrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblsuma_de_dos_numeros
@@ -106,12 +108,34 @@
             this.txtresultado.TabIndex = 8;
             this.txtresultado.TextChanged += new System.EventHandler(this.txtresultado_TextChanged);
             // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Location = new System.Drawing.Point(241, 278);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(75, 39);
+            this.btnlimpiar.TabIndex = 9;
+            this.btnlimpiar.Text = "Limpiar";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
+            // 
+            // btncerrrar
+            // 
+            this.btncerrrar.Location = new System.Drawing.Point(324, 278);
+            this.btncerrrar.Name = "btncerrrar";
+            this.btncerrrar.Size = new System.Drawing.Size(76, 39);
+            this.btncerrrar.TabIndex = 10;
+            this.btncerrrar.Text = "Cerrar";
+            this.btncerrrar.UseVisualStyleBackColor = true;
+            this.btncerrrar.Click += new System.EventHandler(this.btncerrrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(702, 391);
+            this.Controls.Add(this.btncerrrar);
+            this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.txtresultado);
             this.Controls.Add(this.lbligual);
             this.Controls.Add(this.lblsimbolo);
@@ -139,6 +163,8 @@
         private System.Windows.Forms.Label lblsimbolo;
         private System.Windows.Forms.Label lbligual;
         private System.Windows.Forms.TextBox txtresultado;
+        private System.Windows.Forms.Button btnlimpiar;
+        private System.Windows.Forms.Button btncerrrar;
     }
 }
 

@@ -64,6 +64,18 @@ namespace suma_dos_numeros_ingresados
         {
 
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtresultado.Clear();
+            txtnumero1.Clear();
+            txtnumero2.Clear();
+        }
+
+        private void btncerrrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
     internal class txtnumero
