@@ -20,9 +20,4 @@ namespace suma_dos_numeros_ingresados
         }
     }
 }
-while (true)
-{ var consumeResult = consumer.consume();
-  Console.WriteLine($"Received message: Key = {consumeResult.Message.Key}, Value = {consumeResult.Message.Value}");
-
-}
 
