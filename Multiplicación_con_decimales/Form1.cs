@@ -42,5 +42,22 @@ namespace Multiplicación_con_decimales
                 MessageBox.Show("Por favor ingrese números válidos.");
             }
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            textresultado.Clear();
+            txtnumero1.Clear();
+            txtnumero2.Clear();
+        }
+
+        private void textresultado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+         this.Close();
+        }
     }
 }

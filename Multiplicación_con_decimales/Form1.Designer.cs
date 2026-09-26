@@ -35,6 +35,8 @@
             this.lblmultiplicar = new System.Windows.Forms.Label();
             this.lbligual = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnlimpiar = new System.Windows.Forms.Button();
+            this.btncerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbltexto
@@ -69,6 +71,7 @@
             this.textresultado.Name = "textresultado";
             this.textresultado.Size = new System.Drawing.Size(76, 20);
             this.textresultado.TabIndex = 3;
+            this.textresultado.TextChanged += new System.EventHandler(this.textresultado_TextChanged);
             // 
             // lblmultiplicar
             // 
@@ -104,12 +107,34 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Location = new System.Drawing.Point(298, 311);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(78, 36);
+            this.btnlimpiar.TabIndex = 7;
+            this.btnlimpiar.Text = "Limpiar";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.Location = new System.Drawing.Point(426, 311);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(80, 38);
+            this.btncerrar.TabIndex = 8;
+            this.btncerrar.Text = "Cerrar";
+            this.btncerrar.UseVisualStyleBackColor = true;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btncerrar);
+            this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbligual);
             this.Controls.Add(this.lblmultiplicar);
@@ -134,6 +159,8 @@
         private System.Windows.Forms.Label lblmultiplicar;
         private System.Windows.Forms.Label lbligual;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnlimpiar;
+        private System.Windows.Forms.Button btncerrar;
     }
 }
 
