@@ -34,8 +34,8 @@ namespace Multiplicación_con_decimales
             if (double.TryParse(txtnumero1.Text, out num1) && double.TryParse(txtnumero2.Text, out num2))
             {
                 resultado = num1 * num2;
-                int resultadoEntero = (int)resultado;
-                textresultado.Text = resultadoEntero.ToString();
+                double resultadodecimal = (double)resultado;
+                textresultado.Text = resultadodecimal.ToString();
             }
             else
             {
