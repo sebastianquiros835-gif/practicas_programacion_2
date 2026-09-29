@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace suma_dos_numeros_ingresados
 {
-    public partial class Form1 : Form
+    public partial class Formsuma : Form
     {
-        public Form1()
+        public Formsuma()
         {
             InitializeComponent();
         }

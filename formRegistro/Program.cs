@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Multiplicación_con_decimales
+namespace formRegistro
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Multiplicación_con_decimales
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formmultiplicacion());
+            Application.Run(new Form1());
         }
     }
 }

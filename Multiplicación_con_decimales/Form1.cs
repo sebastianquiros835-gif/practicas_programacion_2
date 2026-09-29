@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Multiplicación_con_decimales
 {
-    public partial class Form1 : Form
+    public partial class Formmultiplicacion : Form
     {
-        public Form1()
+        public Formmultiplicacion()
         {
             InitializeComponent();
         }

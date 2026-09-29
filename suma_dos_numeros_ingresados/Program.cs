@@ -16,7 +16,7 @@ namespace suma_dos_numeros_ingresados
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Formsuma());
         }
     }
 }

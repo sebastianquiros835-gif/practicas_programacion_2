@@ -1,6 +1,6 @@
 ﻿namespace suma_dos_numeros_ingresados
 {
-    partial class Form1
+    partial class Formsuma
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -128,7 +128,7 @@
             this.btncerrrar.UseVisualStyleBackColor = true;
             this.btncerrrar.Click += new System.EventHandler(this.btncerrrar_Click);
             // 
-            // Form1
+            // Formsuma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -145,9 +145,9 @@
             this.Controls.Add(this.lblsuma_de_dos_numeros);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Formsuma";
             this.RightToLeftLayout = true;
-            this.Text = "Form1";
+            this.Text = "Formsuma";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

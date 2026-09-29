@@ -1,6 +1,6 @@
 ﻿namespace Multiplicación_con_decimales
 {
-    partial class Form1
+    partial class Formmultiplicacion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -43,7 +43,7 @@
             // 
             this.lbltexto.AutoSize = true;
             this.lbltexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lbltexto.Location = new System.Drawing.Point(294, 104);
+            this.lbltexto.Location = new System.Drawing.Point(294, 95);
             this.lbltexto.Name = "lbltexto";
             this.lbltexto.Size = new System.Drawing.Size(212, 20);
             this.lbltexto.TabIndex = 0;
@@ -127,7 +127,7 @@
             this.btncerrar.UseVisualStyleBackColor = true;
             this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
-            // Form1
+            // Formmultiplicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,8 +142,8 @@
             this.Controls.Add(this.txtnumero2);
             this.Controls.Add(this.txtnumero1);
             this.Controls.Add(this.lbltexto);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Formmultiplicacion";
+            this.Text = "Formmutiplicacion ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
