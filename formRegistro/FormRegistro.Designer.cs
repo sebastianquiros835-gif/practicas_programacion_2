@@ -1,6 +1,6 @@
 ﻿namespace formRegistro
 {
-    partial class Form1
+    partial class FormRegistro
     {
         /// <summary>
         /// Variable del diseñador necesaria.

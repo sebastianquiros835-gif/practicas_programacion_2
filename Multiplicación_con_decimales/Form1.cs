@@ -29,18 +29,23 @@ namespace Multiplicación_con_decimales
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double num1, num2, resultado;
+        // Validar y parsear de forma segura como enteros antes de operar
+        if (!int.TryParse(txtnumero1.Text, out int num1))
+        {
+            MessageBox.Show("Entrada no válida en Número 1. Introduce un entero.");
+            txtnumero1.Focus();
+            return;
+        }
 
-            if (double.TryParse(txtnumero1.Text, out num1) && double.TryParse(txtnumero2.Text, out num2))
-            {
-                resultado = num1 * num2;
-                double resultadodecimal = (double)resultado;
-                textresultado.Text = resultadodecimal.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Por favor ingrese números válidos.");
-            }
+        if (!int.TryParse(txtnumero2.Text, out int num2))
+        {
+            MessageBox.Show("Entrada no válida en Número 2. Introduce un entero.");
+            txtnumero2.Focus();
+            return;
+        }
+
+        int resultado = num1 * num2;
+        textresultado.Text = resultado.ToString();
         }
 
         private void btnlimpiar_Click(object sender, EventArgs e)
