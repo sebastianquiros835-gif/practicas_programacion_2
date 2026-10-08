@@ -34,13 +34,13 @@ namespace unidad2
             this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lblnum1 = new System.Windows.Forms.Label();
+            this.contextMenuStrip07 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.barraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblnum2 = new System.Windows.Forms.Label();
             this.txtnumero1 = new System.Windows.Forms.TextBox();
             this.listBoxColores = new System.Windows.Forms.ListBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.contextMenuStrip07 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.barraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnrojo = new System.Windows.Forms.Button();
             this.btnmorado = new System.Windows.Forms.Button();
             this.btnverde = new System.Windows.Forms.Button();
@@ -74,6 +74,28 @@ namespace unidad2
             this.lblnum1.TabIndex = 3;
             this.lblnum1.Text = "numero 1 ";
             // 
+            // contextMenuStrip07
+            // 
+            this.contextMenuStrip07.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.barraToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.contextMenuStrip07.Name = "contextMenuStrip07";
+            this.contextMenuStrip07.Size = new System.Drawing.Size(162, 48);
+            // 
+            // barraToolStripMenuItem
+            // 
+            this.barraToolStripMenuItem.Name = "barraToolStripMenuItem";
+            this.barraToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.barraToolStripMenuItem.Text = "barra de colores ";
+            this.barraToolStripMenuItem.Click += new System.EventHandler(this.barraToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.salirToolStripMenuItem.Text = "salir ";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // lblnum2
             // 
             this.lblnum2.AutoSize = true;
@@ -99,28 +121,6 @@ namespace unidad2
             this.listBoxColores.Size = new System.Drawing.Size(143, 95);
             this.listBoxColores.TabIndex = 7;
             this.listBoxColores.SelectedIndexChanged += new System.EventHandler(this.listBoxColores_SelectedIndexChanged);
-            // 
-            // contextMenuStrip07
-            // 
-            this.contextMenuStrip07.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.barraToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.contextMenuStrip07.Name = "contextMenuStrip07";
-            this.contextMenuStrip07.Size = new System.Drawing.Size(162, 48);
-            // 
-            // barraToolStripMenuItem
-            // 
-            this.barraToolStripMenuItem.Name = "barraToolStripMenuItem";
-            this.barraToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.barraToolStripMenuItem.Text = "barra de colores ";
-            this.barraToolStripMenuItem.Click += new System.EventHandler(this.barraToolStripMenuItem_Click);
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.salirToolStripMenuItem.Text = "salir ";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // btnrojo
             // 
