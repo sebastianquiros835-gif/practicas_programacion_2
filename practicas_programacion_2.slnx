@@ -3,4 +3,6 @@
   <Project Path="Multiplicación_con_decimales/Multiplicación_con_decimales.csproj" Id="8a0c9763-5798-4835-9cab-6903810ee728" />
   <Project Path="suma_dos_numeros_ingresados/suma_dos_numeros_ingresados.csproj" Id="12e5001c-e88a-4d05-a42d-39be1f0cad79" />
   <Project Path="unidad2/unidad2.csproj" Id="142d5528-9331-4831-91c6-8bf213c36fea" />
+  <Project Path="Unidad4_POO/Unidad4_POO.csproj" Id="db13e903-5994-4515-bd59-f9f0139327ff" />
+  <Project Path="unidad_3/unidad_3.csproj" Id="4ae049ef-576d-4483-a3d7-6ba915057b65" />
 </Solution>
