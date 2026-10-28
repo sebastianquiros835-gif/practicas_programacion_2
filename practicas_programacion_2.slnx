@@ -1,8 +1,10 @@
 <Solution>
   <Project Path="formRegistro/formRegistro.csproj" Id="082141ee-4cab-43b9-81c0-17de92f69610" />
   <Project Path="Multiplicación_con_decimales/Multiplicación_con_decimales.csproj" Id="8a0c9763-5798-4835-9cab-6903810ee728" />
+  <Project Path="primer examen/primer examen.csproj" Id="8721b542-3c70-4a2a-8c92-9a4a2bd3e81b" />
   <Project Path="suma_dos_numeros_ingresados/suma_dos_numeros_ingresados.csproj" Id="12e5001c-e88a-4d05-a42d-39be1f0cad79" />
   <Project Path="unidad2/unidad2.csproj" Id="142d5528-9331-4831-91c6-8bf213c36fea" />
   <Project Path="Unidad4_POO/Unidad4_POO.csproj" Id="db13e903-5994-4515-bd59-f9f0139327ff" />
+  <Project Path="Unidad5/Unidad5.csproj" Id="bb9e4caa-e95c-4ecf-a207-f7df15db2cf5" />
   <Project Path="unidad_3/unidad_3.csproj" Id="4ae049ef-576d-4483-a3d7-6ba915057b65" />
 </Solution>
