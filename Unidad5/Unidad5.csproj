@@ -55,10 +55,38 @@
     </Compile>
     <Compile Include="DataGridView y lista de objetos\LogicaProducto.cs" />
     <Compile Include="DataGridView y lista de objetos\Producto.cs" />
+    <Compile Include="Herencia_y_atributos\Edad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herencia_y_atributos\Edad.Designer.cs">
+      <DependentUpon>Edad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herencia_y_atributos\Estudiante.cs" />
+    <Compile Include="Herencia_y_atributos\Persona.cs" />
+    <Compile Include="Practica5\Empleado.cs" />
+    <Compile Include="Practica5\Persona.cs" />
+    <Compile Include="Practica5\practica5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practica5\practica5.Designer.cs">
+      <DependentUpon>practica5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validaciones_y_DialogResult\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validaciones_y_DialogResult\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DataGridView y lista de objetos\ejercicio1.resx">
       <DependentUpon>ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herencia_y_atributos\Edad.resx">
+      <DependentUpon>Edad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practica5\practica5.resx">
+      <DependentUpon>practica5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -69,6 +97,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Validaciones_y_DialogResult\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,5 +113,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

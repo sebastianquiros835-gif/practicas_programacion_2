@@ -16,7 +16,11 @@ namespace Unidad5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+            //Application.Run(new Herencia_y_atributos.Edad()); 
+            //Application.Run(new Validaciones_y_DialogResult.form1());
+            Application.Run(new Practica5.practica5());
+
         }
     }
 }
