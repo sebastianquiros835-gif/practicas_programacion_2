@@ -132,6 +132,7 @@
             this.Controls.Add(this.lblNombre);
             this.Name = "practica5";
             this.Text = "practica5";
+            this.Load += new System.EventHandler(this.practica5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTrabajador)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

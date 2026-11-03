@@ -58,12 +58,7 @@ namespace Unidad5.Practica5
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             {
-                DialogResult respuesta = MessageBox.Show(
-                    "¿Desea guardar los cambios?",
-                    "Confirmar",
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Question
-                );
+                DialogResult respuesta = MessageBox.Show("¿Desea guardar los cambios?","Confirmar",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
 
                 if (respuesta == DialogResult.Yes)
                 {
@@ -80,6 +75,11 @@ namespace Unidad5.Practica5
 
                 }
             }
+
+        }
+
+        private void practica5_Load(object sender, EventArgs e)
+        {
 
         }
     }
