@@ -1,7 +1,4 @@
 <Solution>
-  <Folder Name="/Unidad6_BD/">
-    <File Path="TextFile1.txt" />
-  </Folder>
   <Project Path="formRegistro/formRegistro.csproj" Id="082141ee-4cab-43b9-81c0-17de92f69610" />
   <Project Path="Multiplicación_con_decimales/Multiplicación_con_decimales.csproj" Id="8a0c9763-5798-4835-9cab-6903810ee728" />
   <Project Path="primer examen/primer examen.csproj" Id="8721b542-3c70-4a2a-8c92-9a4a2bd3e81b" />
