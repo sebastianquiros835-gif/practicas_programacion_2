@@ -6,5 +6,6 @@
   <Project Path="unidad2/unidad2.csproj" Id="142d5528-9331-4831-91c6-8bf213c36fea" />
   <Project Path="Unidad4_POO/Unidad4_POO.csproj" Id="db13e903-5994-4515-bd59-f9f0139327ff" />
   <Project Path="Unidad5/Unidad5.csproj" Id="bb9e4caa-e95c-4ecf-a207-f7df15db2cf5" />
+  <Project Path="Unidad6_BD/Unidad6_BD.csproj" Id="25c3877d-1196-48b3-baf9-9bd6570d6a42" />
   <Project Path="unidad_3/unidad_3.csproj" Id="4ae049ef-576d-4483-a3d7-6ba915057b65" />
 </Solution>
