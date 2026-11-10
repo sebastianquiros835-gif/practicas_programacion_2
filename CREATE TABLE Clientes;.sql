@@ -1,5 +1,0 @@
-CREATE TABLE Clientes (
-    IdCliente INT PRIMARY KEY AUTO_INCREMENT,
-    Nombre VARCHAR(100),
-    Correo VARCHAR(100)
-);
