@@ -1,0 +1,33 @@
+CREATE DATABASE Tienda;
+
+USE Tienda;
+
+CREATE TABLE Categoria (
+    Codigo INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Producto (
+    Codigo INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(100) NOT NULL,
+    Precio DECIMAL(10,2) NOT NULL,
+    Cantidad INT NOT NULL,
+    Categoria INT,
+    FOREIGN KEY (Categoria) REFERENCES Categoria(Codigo)
+);
+
+INSERT INTO Categoria (Nombre)
+VALUES
+('Tecnología'),
+('Accesorios');
+
+INSERT INTO Producto (Nombre, Precio, Cantidad, Categoria)
+VALUES
+('Laptop', 450000.00, 5, 1),
+('Mouse', 8500.00, 20, 2),
+('Teclado', 15000.00, 10, 2);
+
+DELETE FROM Producto
+WHERE Codigo = 3;
+
+DROP DATABASE Tienda;
